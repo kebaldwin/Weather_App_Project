@@ -1,0 +1,42 @@
+.navbar {
+  text-align: center;
+  max-width: 100ß%;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: lightblue;
+}
+
+.navbar-customclass {
+  color: lightskyblue;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.form-control {
+  width: 400px;
+}
+
+.favs {
+  margin-right: -5px;
+  margin-left: 5px;
+}
+
+.btn {
+  color: pink;
+  background-color: white;
+  border: #0f3057;
+}
+
+.btn:hover {
+  background-color: #0f3057;
+  color: white;
+  border: white;
+}
+
+.favs {
+  margin-right: -5px;
+  margin-left: 5px;
+}
