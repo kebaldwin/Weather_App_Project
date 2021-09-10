@@ -1,42 +1,70 @@
-.navbar {
-  text-align: center;
-  max-width: 100ß%;
-  margin: 0 auto;
-  padding: 0px;
-  background-color: lightblue;
-}
+<style>
+.container {
+    width: 80%;
+}    
 
-.navbar-customclass {
-  color: lightskyblue;
-}
-
-.navbar-brand {
-  margin-left: 20px;
-  font-size: 25px;
-}
+.appName {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    }
 
 .form-control {
-  width: 400px;
+  width: 60%;
+  margin:10px;
+  margin-left: 40px;
 }
 
 .favs {
-  margin-right: -5px;
+  font-size: 14px;
+    margin-right: -5px;
   margin-left: 5px;
+  background-color: lightblue;
+  border:lightblue;
+  color: black;
+  margin: 10px;
 }
 
-.btn {
-  color: pink;
-  background-color: white;
+.searchbtn {
+  padding: 0px 20px;  
+  font-size: 14px;  
+  background-color: lightblue;
   border: #0f3057;
+  color:black;
+  margin: 10px;
+}
+
+.myLocation {
+  font-size:14px;
+  background-color: lightblue;
+  border: #0f3057;
+  color:black;
+  margin: 10;
+  margin-right: 40px; 
 }
 
 .btn:hover {
-  background-color: #0f3057;
+  background-color: white;
   color: white;
   border: white;
 }
 
-.favs {
-  margin-right: -5px;
-  margin-left: 5px;
+.date, .time {
+    font-size: 18px;
 }
+
+.wxemoji {
+    font-size: 150px;
+}
+
+.temperature {
+    font-size: 40px;
+}
+
+.celciusText, .fahrenheitText, .verticalline {
+    font-size: 40px;
+    color: black;
+    font-weight: light;
+    text-decoration: none;  
+}
+</style>
