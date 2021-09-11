@@ -42,6 +42,14 @@
   border: rgb(39, 111, 134);
   border-radius: 5px;
   border-width: 1cm;
+  padding: 0px 10px;
+}
+
+.favs:hover {
+  background-color: white;
+  border: rgb(39, 111, 134);
+  border-width: 1cm;
+  color: rgb(39, 111, 134);
 }
 
 .ftext {
@@ -49,10 +57,23 @@
   text-decoration: none;
 }
 
+.ftext:hover {
+  color: rgb(39, 111, 134);
+}
+
 .searchbtn {
   font-size: 14px;
   margin-top: 10px;
-  background-color: lightblue;
+  background-color: rgb(50, 111, 131);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 10px;
+}
+
+.searchbtn:hover {
+  background-color: white;
+  color: rgb(39, 111, 134);
 }
 
 .myLocation {
