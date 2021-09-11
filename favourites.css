@@ -1,7 +1,28 @@
-<style>
 .container {
-  margin-top: 70px;
   width: 75%;
+}
+
+.favPage {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.homebutton {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: rgb(39, 111, 134);
+  border: rgb(39, 111, 134);
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.homelink {
+  color: white;
+  text-decoration: none;
 }
 
 .card {
@@ -11,56 +32,35 @@
   display: block;
 }
 
-.card-header {
-  text-align: center;
-  background-color: lightblue;
-  font-weight: 600;
-  font-family: "NTR", sans-serif;
-  font-size: 26px;
+.list-group {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.fav {
+  margin-left: 10px;
+  font-size: 40px;
+  background-color: white;
+  border: none;
+  margin-right: 0px;
 }
 
 .card-title {
   font-size: 26px;
-  margin-top: 10px;
-  margin-left: 10px;
-  font-family: "NTR", sans-serif;
-  font-weight: 900;
-  color: #0f3057;
-  text-decoration: none;
-}
-.a {
-  color: #0f3057;
-  text-decoration: none;
+  margin-top: 15px;
 }
 
 .time {
   font-size: 20px;
-  margin-left: 10px;
-  font-family: "NTR", sans-serif;
 }
 
-h3 {
-  font-size: 45px;
-  margin-top: 10px;
-  font-family: "NTR", sans-serif;
+.wxemoji {
+  margin-top: 30px;
+  font-size: 30px;
 }
 
-.fav {
-  margin-top: 5px;
-  margin-left: 10px;
-  border: none;
-  background-color: transparent;
-  font-size: 25px;
+.tempnow {
+  font-size: 20px;
+  margin-top: 30px;
 }
-
-.fav:hover {
-  color: #3db7e7;
-  transition: ease-in-out 200ms;
-}
-
-.wxemoji,
-.col-3 {
-  margin-top: 10px;
-  font-size: 24px;
-}
-</style>

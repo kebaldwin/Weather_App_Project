@@ -1,5 +1,12 @@
 .container {
-  width: 80%;
+  width: 75%;
+}
+
+.card {
+  border-radius: 5px;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
 }
 
 .appName {
@@ -8,49 +15,49 @@
   margin-top: 20px;
 }
 
+.card-header {
+  color: black;
+  background: lightblue;
+}
+
+.d-flex {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  color: lightblue;
+}
+
 .form-control {
-  width: 60%;
-  margin: 10px;
-  margin-left: 40px;
+  margin-top: 10px;
+  color: lightblue;
 }
 
 .favs {
-  font-size: 14px;
-  margin-right: -5px;
+  margin-top: 10px;
   margin-left: 5px;
+  font-size: 14px;
+  color: white;
   background-color: lightblue;
-  border: lightblue;
-  color: black;
-  margin: 10px;
 }
 
 .searchbtn {
-  padding: 0px 20px;
   font-size: 14px;
+  margin-top: 10px;
   background-color: lightblue;
-  border: #0f3057;
-  color: black;
-  margin: 10px;
 }
 
 .myLocation {
   font-size: 14px;
-  background-color: lightblue;
-  border: #0f3057;
-  color: black;
   margin: 10;
-  margin-right: 40px;
-}
-
-.btn:hover {
-  background-color: white;
-  color: white;
-  border: white;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 .date,
 .time {
   font-size: 18px;
+  margin-left: 40px;
 }
 
 .wxemoji {
@@ -59,6 +66,7 @@
 
 .temperature {
   font-size: 40px;
+  margin-left: 40px;
 }
 
 .celciusText,
@@ -68,4 +76,25 @@
   color: black;
   font-weight: light;
   text-decoration: none;
+}
+
+.celciusText:hover {
+  color: rgb(50, 111, 131);
+}
+
+.fahrenheitText:hover {
+  color: rgb(50, 111, 131);
+}
+
+.favbutton {
+  margin-left: 50px;
+  font-size: 40px;
+  background-color: white;
+  border: none;
+  margin-right: 0px;
+}
+
+.card-title {
+  margin-left: 40px;
+  margin-top: 10px;
 }

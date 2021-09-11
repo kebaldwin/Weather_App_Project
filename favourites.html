@@ -1,34 +1,21 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>The Weather App</title>
     <meta charset="UTF-8" />
-    <link href="styles.css" />
-    <link href="favourites.css" />
+    <link rel= "stylesheet" href="favourites.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 </head>
-
 <body>
-    <nav class="navbar navbar-light bg-customclass">
-        <div class="container-fluid">
-            <a class="navbar-brand">The Weather App</a>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Location" aria-label="Search" />
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                <button class="btn favs btn-outline-success" type="submit">
-                    <a href="favourites.html">★</a>
-                </button>
-
-            </form>
-        </div>
-    </nav>
+    <p class="favPage">
+        Favourite Locations
+    </p>
     <div class="container">
+        <button class = "homebutton">
+           <a href =  "index.html">Home</a>
+        </button>
         <div class="card">
-            <div class="card-header">
-                Favourite Locations
-            </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <div class="row">
@@ -51,7 +38,9 @@
                             </h4>
                         </div>
                         <div class="col-3">
+                            <p class = "tempnow">
                             21°C
+                            </p>
                         </div>
                 </li>
                 <li class="list-group-item">
@@ -75,7 +64,9 @@
                             </h4>
                         </div>
                         <div class="col-3">
+                            <p class = "tempnow">
                             16°C
+                            </p>
                         </div>
                 </li>
                 <li class="list-group-item">
