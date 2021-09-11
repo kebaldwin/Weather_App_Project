@@ -37,8 +37,16 @@
   margin-top: 10px;
   margin-left: 5px;
   font-size: 14px;
+  color: black;
+  background-color: rgb(50, 111, 131);
+  border: rgb(39, 111, 134);
+  border-radius: 5px;
+  border-width: 1cm;
+}
+
+.ftext {
   color: white;
-  background-color: lightblue;
+  text-decoration: none;
 }
 
 .searchbtn {
@@ -75,7 +83,6 @@
   font-size: 40px;
   color: black;
   font-weight: light;
-  text-decoration: none;
 }
 
 .celciusText:hover {
