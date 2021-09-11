@@ -1,46 +1,45 @@
-<style>
 .container {
-    width: 80%;
-}    
+  width: 80%;
+}
 
 .appName {
-    text-align: center;
-    font-size: 60px;
-    margin-top: 20px;
-    }
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
 
 .form-control {
   width: 60%;
-  margin:10px;
+  margin: 10px;
   margin-left: 40px;
 }
 
 .favs {
   font-size: 14px;
-    margin-right: -5px;
+  margin-right: -5px;
   margin-left: 5px;
   background-color: lightblue;
-  border:lightblue;
+  border: lightblue;
   color: black;
   margin: 10px;
 }
 
 .searchbtn {
-  padding: 0px 20px;  
-  font-size: 14px;  
+  padding: 0px 20px;
+  font-size: 14px;
   background-color: lightblue;
   border: #0f3057;
-  color:black;
+  color: black;
   margin: 10px;
 }
 
 .myLocation {
-  font-size:14px;
+  font-size: 14px;
   background-color: lightblue;
   border: #0f3057;
-  color:black;
+  color: black;
   margin: 10;
-  margin-right: 40px; 
+  margin-right: 40px;
 }
 
 .btn:hover {
@@ -49,22 +48,24 @@
   border: white;
 }
 
-.date, .time {
-    font-size: 18px;
+.date,
+.time {
+  font-size: 18px;
 }
 
 .wxemoji {
-    font-size: 150px;
+  font-size: 150px;
 }
 
 .temperature {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.celciusText, .fahrenheitText, .verticalline {
-    font-size: 40px;
-    color: black;
-    font-weight: light;
-    text-decoration: none;  
+.celciusText,
+.fahrenheitText,
+.verticalline {
+  font-size: 40px;
+  color: black;
+  font-weight: light;
+  text-decoration: none;
 }
-</style>
